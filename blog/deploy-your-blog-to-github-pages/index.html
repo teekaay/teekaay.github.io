@@ -56,11 +56,11 @@
 
 
     
-    <link rel="stylesheet" href="https://teekaay.github.io/css/reset.css?t=2017-06-15%2000%3a17%3a23.845716741%20%2b0200%20CEST">
-    <link rel="stylesheet" href="https://teekaay.github.io/css/pygments.css?t=2017-06-15%2000%3a17%3a23.845716741%20%2b0200%20CEST">
-    <link rel="stylesheet" href="https://teekaay.github.io/css/main.css?t=2017-06-15%2000%3a17%3a23.845716741%20%2b0200%20CEST">
+    <link rel="stylesheet" href="https://teekaay.github.io/css/reset.css?t=2017-06-15%2000%3a19%3a36.820019403%20%2b0200%20CEST">
+    <link rel="stylesheet" href="https://teekaay.github.io/css/pygments.css?t=2017-06-15%2000%3a19%3a36.820019403%20%2b0200%20CEST">
+    <link rel="stylesheet" href="https://teekaay.github.io/css/main.css?t=2017-06-15%2000%3a19%3a36.820019403%20%2b0200%20CEST">
     
-        <link rel="stylesheet" href="https://teekaay.github.io/css/override.css?t=2017-06-15%2000%3a17%3a23.845716741%20%2b0200%20CEST">
+        <link rel="stylesheet" href="https://teekaay.github.io/css/override.css?t=2017-06-15%2000%3a19%3a36.820019403%20%2b0200%20CEST">
     
 
 
@@ -248,13 +248,18 @@
 
 <p>It is important that your output folder is not contained in your <code>.gitignore</code> for this approach to work. If so, remove it and make sure to not accidentially comitting it in the future. After generating <code>public</code>, use <code>git chckout master</code> to switch the branch. <code>public</code> should now be available. Move everything in there to the root directory with <code>mv public/* ./</code> and remove the folder with <code>rm -rf public</code>. Now, everything should be in place to publish. The next steps are <code>git add</code>, <code>git commit -m &quot;Update website&quot;</code> and <code>git push origin master</code>. Finally switch back to <code>content</code> branch. This can be summarised in the following script</p>
 
-<pre><code># deploy.sh
-#!/bin/sh
+<p><strong>UPDATE</strong> Seems my original script was not working. Here is the update:</p>
 
-set -e                  # Opt out early on errors
+<pre><code>#!/bin/sh
+
+echo &quot;Deploying&quot;
 
 hugo
 git checkout master
+# Delete all hugo generated files
+rm -rf about blog categories code colophon content css fixed img tags
+rm 404.html index.html sitemap.xml index.xml
+# End deletion
 mv public/* ./
 rm -rf public
 git add .
