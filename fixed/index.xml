@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed on Teekaay&#39;s Blog</title>
+    <link>https://teekaay.github.io/fixed/</link>
+    <description>Recent content in Fixed on Teekaay&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 11 Jun 2017 06:42:21 -0700</lastBuildDate>
+    
+	<atom:link href="https://teekaay.github.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://teekaay.github.io/about/</link>
+      <pubDate>Sun, 11 Jun 2017 06:42:21 -0700</pubDate>
+      
+      <guid>https://teekaay.github.io/about/</guid>
+      <description>I am a software engineer from Hamburg, Germany. My main topics at work are site reliability engineering and data science. My main languages are R and Node.js with a bit of Java and Go.
+
+About this site</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://teekaay.github.io/code/</link>
+      <pubDate>Thu, 11 May 2017 22:06:31 +0200</pubDate>
+      
+      <guid>https://teekaay.github.io/code/</guid>
+      <description>In the following, some of my open source projects are listed. You can also find them on my Github page.
+Dotfiles
+Because everyone needs to show his dotfiles.
+Webpack Boilerplate
+A medium complexity boilerplate to get up and running with React and Webpack 2. It has support for ES6, hot reloading and testing using enzyme and jest. Configuration for production and development is included.
+Graphitr
+A library for accessing Graphite metrics.</description>
+    </item>
+    
+    <item>
+      <title>colophon</title>
+      <link>https://teekaay.github.io/colophon/</link>
+      <pubDate>Sat, 22 Aug 2015 06:28:26 -0700</pubDate>
+      
+      <guid>https://teekaay.github.io/colophon/</guid>
+      <description>Just my random thoughts on programming, data visualization and site reliability.</description>
+    </item>
+    
+  </channel>
+</rss>
