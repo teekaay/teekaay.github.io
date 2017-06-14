@@ -3,7 +3,8 @@
 echo "Deploying"
 
 hugo
-git checkout master
+git branch -D master
+git checkout -b master
 mv public/* ./
 rm -rf public
 git add .
