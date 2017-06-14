@@ -64,13 +64,18 @@ How you generate your website is really up to you. If you use some fully-blown t
 
 It is important that your output folder is not contained in your `.gitignore` for this approach to work. If so, remove it and make sure to not accidentially comitting it in the future. After generating `public`, use `git chckout master` to switch the branch. `public` should now be available. Move everything in there to the root directory with `mv public/* ./` and remove the folder with `rm -rf public`. Now, everything should be in place to publish. The next steps are `git add`, `git commit -m "Update website"` and `git push origin master`. Finally switch back to `content` branch. This can be summarised in the following script
 
-    # deploy.sh
+**UPDATE** Seems my original script was not working. Here is the update:
+
     #!/bin/sh
 
-    set -e                  # Opt out early on errors
+    echo "Deploying"
 
     hugo
     git checkout master
+    # Delete all hugo generated files
+    rm -rf about blog categories code colophon content css fixed img tags
+    rm 404.html index.html sitemap.xml index.xml
+    # End deletion
     mv public/* ./
     rm -rf public
     git add .
