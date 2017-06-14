@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Teekaay&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Jun 2017 21:53:05 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jun 2017 22:53:05 +0200</lastBuildDate>
     
 	<atom:link href="https://teekaay.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deploy your blog to Github pages</title>
+      <link>https://teekaay.github.io/blog/deploy-your-blog-to-github-pages/</link>
+      <pubDate>Sun, 11 Jun 2017 22:53:05 +0200</pubDate>
+      
+      <guid>https://teekaay.github.io/blog/deploy-your-blog-to-github-pages/</guid>
+      <description>I have successfully deployed my blog to Github Pages. The journey was a little bit rough, mostly because of outdated and misunderstood concepts. I use Hugo as my static site generator because its easy to use and in my opinion a little more lightweight than Jekyll.
+Github Pages Rules Github has some rules you must follow to make this work. In order to create your personal site on Github, you have to create a repository first which matches &amp;lt;username&amp;gt;.</description>
+    </item>
     
     <item>
       <title>Hello, World!</title>
@@ -19,16 +29,6 @@
       <guid>https://teekaay.github.io/blog/hello-world/</guid>
       <description>Hello, world! This is my first post! In this blog I eventually focus on the following topics:
  Programming: Node.js and Go are the things I do currently Data science and visualization: in R Automation and infrastructure stuff  Until my next post, you can check out my Github projects here.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://teekaay.github.io/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://teekaay.github.io/blog/</guid>
-      <description>I have successfully deployed my blog to Github Pages. The journey was a little bit rough, mostly because of outdated and misunderstood concepts. I use Hugo as my static site generator because its easy to use and in my opinion a little more lightweight than Jekyll.
-Github Pages Rules Github has some rules you must follow to make this work. In order to create your personal site on Github, you have to create a repository first which matches &amp;lt;username&amp;gt;.</description>
     </item>
     
   </channel>
