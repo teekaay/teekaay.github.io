@@ -1,3 +1,10 @@
++++
+date = "2017-06-11T22:53:05+02:00"
+description = "Deploy your blog to Github Pages"
+title = "Deploy your blog to Github pages"
+
++++
+
 I have successfully deployed my blog to Github Pages. The journey was a little bit rough, mostly because of outdated and misunderstood concepts. I use [Hugo](https://gohugo.io/) as my static site generator because its easy to use and in my opinion a little more lightweight than Jekyll.
 
 ## Github Pages Rules
