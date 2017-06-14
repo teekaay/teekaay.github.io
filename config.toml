@@ -1,7 +1,7 @@
 baseurl             = "https://teekaay.github.io/"
 builddrafts         = false
 canonifyurls        = true
-contentdir          = "content"
+contentdir          = "content/blog"
 languageCode        = "en-US"
 layoutdir           = "layouts"
 publishdir          = "public"
