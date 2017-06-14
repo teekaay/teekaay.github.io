@@ -6,20 +6,10 @@
     <description>Recent content on Teekaay&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 14 Jun 2017 22:10:02 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jun 2017 21:53:05 +0200</lastBuildDate>
     
 	<atom:link href="https://teekaay.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Deploy your blog to Github Pages</title>
-      <link>https://teekaay.github.io/blog/deploy-your-blog-to-github-pages/</link>
-      <pubDate>Wed, 14 Jun 2017 22:10:02 +0200</pubDate>
-      
-      <guid>https://teekaay.github.io/blog/deploy-your-blog-to-github-pages/</guid>
-      <description>I have successfully deployed my blog to Github Pages. The journey was a little bit rough, mostly because of outdated and misunderstood concepts. I use Hugo as my static site generator because its easy to use and in my opinion a little more lightweight than Jekyll.
-Github Pages Rules Github has some rules you must follow to make this work. In order to create your personal site on Github, you have to create a repository first which matches &amp;lt;username&amp;gt;.</description>
-    </item>
     
     <item>
       <title>Hello, World!</title>
@@ -64,6 +54,16 @@ A library for accessing Graphite metrics.</description>
       
       <guid>https://teekaay.github.io/colophon/</guid>
       <description>Just my random thoughts on programming, data visualization and site reliability.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://teekaay.github.io/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://teekaay.github.io/blog/</guid>
+      <description>I have successfully deployed my blog to Github Pages. The journey was a little bit rough, mostly because of outdated and misunderstood concepts. I use Hugo as my static site generator because its easy to use and in my opinion a little more lightweight than Jekyll.
+Github Pages Rules Github has some rules you must follow to make this work. In order to create your personal site on Github, you have to create a repository first which matches &amp;lt;username&amp;gt;.</description>
     </item>
     
   </channel>
